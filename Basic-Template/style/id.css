@@ -1,0 +1,36 @@
+/*******************************************************
+*
+Theme Name:    individuel CSS properties  ( IDs )
+Theme URI:     /style/id.css
+Description:   Property settings of individuals, section-alphabetic ordered
+Version:       1.0
+Date:          01.11.2020
+Author:        Tjark Ziehmm
+License:       MIT
+Tags:          no Tags
+Class:         no Classes
+IDs:           page
+*
+*******************************************************/
+
+#header-picture {
+  padding: 20px;
+  margin-top: 8%;
+}
+
+#profilbild {
+  align: left;
+  width: 60%;
+}
+
+#spalte1 {
+  align-content: "center";
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}

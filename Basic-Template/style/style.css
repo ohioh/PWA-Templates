@@ -1,0 +1,34 @@
+/*******************************************************
+*
+Theme Name:    graphical CSS properties (  class & tag )
+Theme URI:     /style/main.css
+Description:   Property settings of design,color and size  (text &  graphic),section-alphabetic ordered
+Version:       1.0
+Date:          01.11.2020
+Author:        Tjark Ziehmm
+License:       MIT
+Tags:          body, header, p, ol, ul, hX, a, li, section, article, footer
+Classes:       img-container,  navbar, padded, backlink,vertical-list, list-title, profil-icon
+               column, list-item, footer-link
+IDs:           no Id  (only in seperate file)
+*
+*******************************************************/
+/** *************************************** Tags *************************************** **/
+
+a {
+    color: white;
+}
+
+
+/** *************************************** Classes *************************************** **/
+
+
+.inner {
+    color: white;
+    background-color: #333;
+    font-size: 1em;
+}
+
+
+
+/** *************************************** Media *************************************** **/

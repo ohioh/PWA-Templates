@@ -1,0 +1,138 @@
+/*******************************************************
+*
+Theme Name:    structural CSS properties  ( class & tag )
+Theme URI:     /style/main.css
+Description:   Property settings of structure, section-alphabetic ordered
+Version:       1.0
+Date:          01.11.2020
+Author:        Tjark Ziehmm
+License:       MIT
+Tags:          body, header, p, ol, ul, hX, a, li, section, article, footer
+Class:         img-container,  navbar, padded, backlink,vertical-list, list-title, profil-icon
+               column, list-item, footer-link
+IDs:           no Id  (only in seperate file)
+*
+*******************************************************/
+
+
+/** *************************************** Tags *************************************** **/
+a {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  font-size: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold ;
+}
+
+h1 {
+  font-size: 1.8em;
+}
+
+h2 {
+  font-size: 1.7em;
+}
+
+h3 {
+  font-size: 1.6em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1.4em;
+}
+
+h6 {
+  font-size: 1.2em;
+}
+
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  text-align: middle;
+}
+
+ul, ol {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+}
+
+table {
+  background-color: grey;
+  border-top: 1px solid black;
+  border-left: 2px solid black;
+  border-bottom: 1px solid black;
+  border-right: 2px solid black;
+}
+
+td {
+  background-color: grey;
+  border-top: 1px solid darkslategrayy;
+  border-left: 2px solid darkslategray;
+  border-bottom: 1px solid darkslategray;
+  border-right: 2px solid darkslategray;
+}
+/** *************************************** Classes *************************************** **/
+
+.inner {
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  size: 100%;
+  margin: auto;
+  padding: auto;
+  position:fixed;
+  z-index:999;
+  opacity: 75%;
+  }
+
+.header-middle {
+  text-align: middle;
+}
+
+
+/** *************************************** Media *************************************** **/
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+@media (min-width: 800px) {
+  .column {
+    width: calc(50% - 20px);
+  }
+
+  .left {
+    padding-right: 10px;
+  }
+
+  .right {
+    padding-left: 10px;
+  }
+
+}
+
+@media print {
+  nav, footer { display: none; }
+  img { max-width: 12cm; }
+}
